@@ -1,0 +1,101 @@
+.menu{
+  /* add correct code to place the menu correctly.*/
+  color: rgb(248, 64, 64);
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  padding: 0.9px;
+  background-color: rgb(44, 153, 255);
+  font-size: 50px;
+  font-family: 'Harrington';
+}
+
+.links{
+  color: rgb(252, 16, 95);
+  border-radius: 30px;
+  margin: 20px;
+  margin-left:45%;
+  margin-right: 45%;
+  padding: 7px;
+  background-color: rgba(200, 255, 0, 0.863);
+  display: flex;
+  justify-content:center;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: comic sans ms;
+  
+  
+
+}
+
+body {
+  background-color: rgba(211, 211, 211, 0.596);
+}
+
+.mainmenu{
+  border-radius: 90px;
+  background-color: rgba(87, 253, 71, 0.89);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Harrington';
+  color: rgb(255, 0, 0);
+  text-align: center;
+  margin-right: 90%;
+
+  transform: translate(20%,-127%);
+
+}
+
+.mainmenu:hover{
+  background-color: rgb(183, 220, 20);
+}
+
+.mainmenu:visited{
+  background-color: rgba(255, 16, 16, 0.849);
+}
+
+
+
+
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.bodyimg img{
+    border-radius: 30px;
+
+    transform: translate(0%,-7%);
+
+}
+
+.bodyimg h3{
+font-size: 25px;
+font-family: comic sans ms;
+}
+
+.grid img {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+}
+
+.languages{
+ border:5px solid rgba(0, 0, 0, 0);
+ border-radius: 30px;
+ border-bottom-color: rgba(65, 65, 65, 0.616);
+ font-family: comic sans ms;
+ background-color: rgba(250, 249, 249, 0.384);
+ margin: 20px;
+align-items: flex-start;
+}
+.origami {
+  border-radius: 20px;
+  background-color: rgb(255, 0, 0);
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
